@@ -86,7 +86,6 @@
     
     MainViewController *mainVC = [[MainViewController alloc] init];
     [self presentViewController:mainVC animated:NO completion:nil];
-    
 }
 
 

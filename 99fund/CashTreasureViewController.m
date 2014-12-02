@@ -17,8 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    self.tabBarController.tabBarItem.title = @"现金宝";
 }
 
 - (void)didReceiveMemoryWarning {
