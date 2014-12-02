@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7689AE21A2D5A96001B9600 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = C7689ADF1A2D5A96001B9600 /* 1.png */; };
+		C7689AE31A2D5A96001B9600 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C7689AE01A2D5A96001B9600 /* 2.png */; };
+		C7689AE41A2D5A96001B9600 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = C7689AE11A2D5A96001B9600 /* 3.png */; };
+		C7689AE71A2D5AC2001B9600 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7689AE61A2D5AC2001B9600 /* StartViewController.m */; };
+		C7689AEA1A2D5B06001B9600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7689AE91A2D5B06001B9600 /* AppDelegate.m */; };
+		C7689AED1A2D625C001B9600 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7689AEC1A2D625C001B9600 /* MainViewController.m */; };
+		C7689AF01A2D667B001B9600 /* CashTreasureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7689AEF1A2D667B001B9600 /* CashTreasureViewController.m */; };
+		C7689AF41A2D66DC001B9600 /* HighFinanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7689AF31A2D66DC001B9600 /* HighFinanceViewController.m */; };
+		C7689AF71A2D6711001B9600 /* FundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7689AF61A2D6711001B9600 /* FundViewController.m */; };
+		C7689AFA1A2D675D001B9600 /* QueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7689AF91A2D675D001B9600 /* QueryViewController.m */; };
 		C78E236C1A2D5869004E6E04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C78E236B1A2D5869004E6E04 /* main.m */; };
-		C78E236F1A2D5869004E6E04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C78E236E1A2D5869004E6E04 /* AppDelegate.m */; };
 		C78E23861A2D5869004E6E04 /* _9fundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C78E23851A2D5869004E6E04 /* _9fundTests.m */; };
 /* End PBXBuildFile section */
 
@@ -23,11 +32,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7689ADD1A2D5A50001B9600 /* 99fund.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 99fund.pch; sourceTree = "<group>"; };
+		C7689ADF1A2D5A96001B9600 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		C7689AE01A2D5A96001B9600 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		C7689AE11A2D5A96001B9600 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		C7689AE51A2D5AC2001B9600 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		C7689AE61A2D5AC2001B9600 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		C7689AE81A2D5B06001B9600 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7689AE91A2D5B06001B9600 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7689AEB1A2D625C001B9600 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C7689AEC1A2D625C001B9600 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C7689AEE1A2D667B001B9600 /* CashTreasureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashTreasureViewController.h; sourceTree = "<group>"; };
+		C7689AEF1A2D667B001B9600 /* CashTreasureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashTreasureViewController.m; sourceTree = "<group>"; };
+		C7689AF21A2D66DC001B9600 /* HighFinanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighFinanceViewController.h; sourceTree = "<group>"; };
+		C7689AF31A2D66DC001B9600 /* HighFinanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighFinanceViewController.m; sourceTree = "<group>"; };
+		C7689AF51A2D6711001B9600 /* FundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FundViewController.h; sourceTree = "<group>"; };
+		C7689AF61A2D6711001B9600 /* FundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FundViewController.m; sourceTree = "<group>"; };
+		C7689AF81A2D675D001B9600 /* QueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryViewController.h; sourceTree = "<group>"; };
+		C7689AF91A2D675D001B9600 /* QueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryViewController.m; sourceTree = "<group>"; };
 		C78E23661A2D5869004E6E04 /* 99fund.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 99fund.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78E236A1A2D5869004E6E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C78E236B1A2D5869004E6E04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C78E236D1A2D5869004E6E04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C78E236E1A2D5869004E6E04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C78E237F1A2D5869004E6E04 /* 99fundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 99fundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78E23841A2D5869004E6E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C78E23851A2D5869004E6E04 /* _9fundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _9fundTests.m; sourceTree = "<group>"; };
@@ -51,6 +76,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7689ADE1A2D5A96001B9600 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C7689ADF1A2D5A96001B9600 /* 1.png */,
+				C7689AE01A2D5A96001B9600 /* 2.png */,
+				C7689AE11A2D5A96001B9600 /* 3.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		C7689AF11A2D6685001B9600 /* cashTreasure */ = {
+			isa = PBXGroup;
+			children = (
+				C7689AEE1A2D667B001B9600 /* CashTreasureViewController.h */,
+				C7689AEF1A2D667B001B9600 /* CashTreasureViewController.m */,
+			);
+			name = cashTreasure;
+			sourceTree = "<group>";
+		};
+		C7689AFB1A2D6766001B9600 /* query */ = {
+			isa = PBXGroup;
+			children = (
+				C7689AF81A2D675D001B9600 /* QueryViewController.h */,
+				C7689AF91A2D675D001B9600 /* QueryViewController.m */,
+			);
+			name = query;
+			sourceTree = "<group>";
+		};
+		C7689AFC1A2D67A3001B9600 /* fund */ = {
+			isa = PBXGroup;
+			children = (
+				C7689AF51A2D6711001B9600 /* FundViewController.h */,
+				C7689AF61A2D6711001B9600 /* FundViewController.m */,
+			);
+			name = fund;
+			sourceTree = "<group>";
+		};
+		C7689AFD1A2D67B0001B9600 /* highFinance */ = {
+			isa = PBXGroup;
+			children = (
+				C7689AF21A2D66DC001B9600 /* HighFinanceViewController.h */,
+				C7689AF31A2D66DC001B9600 /* HighFinanceViewController.m */,
+			);
+			name = highFinance;
+			sourceTree = "<group>";
+		};
 		C78E235D1A2D5869004E6E04 = {
 			isa = PBXGroup;
 			children = (
@@ -72,8 +143,14 @@
 		C78E23681A2D5869004E6E04 /* 99fund */ = {
 			isa = PBXGroup;
 			children = (
-				C78E236D1A2D5869004E6E04 /* AppDelegate.h */,
-				C78E236E1A2D5869004E6E04 /* AppDelegate.m */,
+				C7689AF11A2D6685001B9600 /* cashTreasure */,
+				C7689AFD1A2D67B0001B9600 /* highFinance */,
+				C7689AFC1A2D67A3001B9600 /* fund */,
+				C7689AFB1A2D6766001B9600 /* query */,
+				C7689AE51A2D5AC2001B9600 /* StartViewController.h */,
+				C7689AE61A2D5AC2001B9600 /* StartViewController.m */,
+				C7689AEB1A2D625C001B9600 /* MainViewController.h */,
+				C7689AEC1A2D625C001B9600 /* MainViewController.m */,
 				C78E23691A2D5869004E6E04 /* Supporting Files */,
 			);
 			path = 99fund;
@@ -82,8 +159,12 @@
 		C78E23691A2D5869004E6E04 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C7689ADE1A2D5A96001B9600 /* images */,
+				C7689AE81A2D5B06001B9600 /* AppDelegate.h */,
+				C7689AE91A2D5B06001B9600 /* AppDelegate.m */,
 				C78E236A1A2D5869004E6E04 /* Info.plist */,
 				C78E236B1A2D5869004E6E04 /* main.m */,
+				C7689ADD1A2D5A50001B9600 /* 99fund.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -185,6 +266,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7689AE41A2D5A96001B9600 /* 3.png in Resources */,
+				C7689AE31A2D5A96001B9600 /* 2.png in Resources */,
+				C7689AE21A2D5A96001B9600 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C78E236F1A2D5869004E6E04 /* AppDelegate.m in Sources */,
+				C7689AE71A2D5AC2001B9600 /* StartViewController.m in Sources */,
 				C78E236C1A2D5869004E6E04 /* main.m in Sources */,
+				C7689AFA1A2D675D001B9600 /* QueryViewController.m in Sources */,
+				C7689AF71A2D6711001B9600 /* FundViewController.m in Sources */,
+				C7689AF01A2D667B001B9600 /* CashTreasureViewController.m in Sources */,
+				C7689AF41A2D66DC001B9600 /* HighFinanceViewController.m in Sources */,
+				C7689AEA1A2D5B06001B9600 /* AppDelegate.m in Sources */,
+				C7689AED1A2D625C001B9600 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +396,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = 99fund/99fund.pch;
 				INFOPLIST_FILE = 99fund/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -316,7 +408,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = 99fund/99fund.pch;
 				INFOPLIST_FILE = 99fund/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -375,6 +469,7 @@
 				C78E238B1A2D5869004E6E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C78E238C1A2D5869004E6E04 /* Build configuration list for PBXNativeTarget "99fundTests" */ = {
 			isa = XCConfigurationList;
@@ -383,6 +478,7 @@
 				C78E238E1A2D5869004E6E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

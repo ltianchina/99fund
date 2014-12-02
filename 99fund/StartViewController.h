@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  StartViewController.h
 //  StartScrollViewDemo
 //
 //  Created by Liming Tian on 12/1/14.
@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface StartViewController : UIViewController <UIScrollViewDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-
 @end
-
